@@ -4,6 +4,13 @@ import sys
 
 class CPU:
     """Main CPU class."""
+    memory = [0] * 256
+    gp_register = [0] * 8
+    internal_register = [0]
+
+
+    def ram_read(self):
+        
 
     def __init__(self):
         """Construct a new CPU."""
